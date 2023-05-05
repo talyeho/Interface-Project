@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="1000.0" style="-fx-background-color: #E8A070;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.dishesFrameController">
+   <children>
+      <ScrollPane fx:id="scrolPane" layoutX="78.0" layoutY="82.0" prefHeight="240.0" prefWidth="845.0" style="-fx-background-color: #e8b08b;">
+         <content>
+            <VBox fx:id="itemVbox" prefHeight="237.0" prefWidth="843.0" style="-fx-background-color: #e8b08b;">
+               <children>
+                  <BorderPane fx:id="paneForSelections" prefHeight="261.0" prefWidth="904.0" style="-fx-background-color: #e8b08b;" />
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <Text layoutX="411.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our top picks!">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="dateAndTime" layoutX="78.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</AnchorPane>

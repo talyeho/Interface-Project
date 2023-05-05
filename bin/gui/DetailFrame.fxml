@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="1000.0" style="-fx-background-color: #E8A070;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.detailFrameController">
+   <children>
+      <VBox fx:id="itemVbox" alignment="CENTER" layoutX="148.0" layoutY="1.0" prefHeight="400.0" prefWidth="704.0" spacing="10.0">
+         <children>
+            <Text fx:id="textDishName" strokeType="OUTSIDE" strokeWidth="0.0" text="dishDetails">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="descriptionText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Button fx:id="retButton" mnemonicParsing="false" style="-fx-background-color: #E16B1E; -fx-border-color: #0F0000;" text="Return">
+               <font>
+                  <Font name="Arial" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

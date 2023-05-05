@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="672.0" prefWidth="1100.0" style="-fx-background-color: #EC803A;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.mainFrameController">
+   <children>
+      <VBox alignment="CENTER" layoutX="-1.0" prefHeight="672.0" prefWidth="1100.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="mainImage" fitHeight="123.0" fitWidth="143.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Images/pizzahut.png" />
+                     </image></ImageView>
+               </children>
+            </HBox>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza Hut">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="35.0" />
+               </font>
+            </Text>
+            <AnchorPane fx:id="mainAnchorPaneDishes" maxHeight="400.0" maxWidth="1000.0" minHeight="400.0" minWidth="1000.0" prefHeight="400.0" prefWidth="1000.0" style="-fx-background-color: #E8A070;">
+               <children>
+                  <Button fx:id="btnGoToDishes" ellipsisString="" layoutX="381.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#goToDishes" prefHeight="99.0" prefWidth="239.0" style="-fx-background-color: #E16B1E; -fx-border-color: #0F0000;" text="Menu" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font></Button>
+               </children></AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Images/biteMe.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
